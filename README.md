@@ -4,7 +4,7 @@ Reproduces Chrome bug where the service worker script request header does not in
 
 Firefox does not seem to have the same issue.
 
-[Reproduction video]()
+[Reproduction video](https://youtu.be/mFnK_DhKNq4)
 
 ## Reproduction Steps
 
