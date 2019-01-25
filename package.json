@@ -1,0 +1,15 @@
+{
+  "name": "sw-etag-chrome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:asakusuma/sw-etag-chrome.git",
+  "author": "asakusuma <asa.kusuma@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "serve": "node start.js"
+  }
+}
