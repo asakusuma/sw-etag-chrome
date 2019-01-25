@@ -10,7 +10,7 @@ module.exports = function() {
 
   app.get('/sw.js', function (req, res) {
     res.set('Content-Type', 'text/javascript');
-    res.set('ETag', `etag-ua-${req.headers['user-agent']}`);
+    res.set('ETag', `W/"etag-ua-${req.headers['user-agent']}"`);
 
     console.log('ifNoneMatched', req.get('If-None-Match'));
     res.send(swSource);
